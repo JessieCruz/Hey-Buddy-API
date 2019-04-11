@@ -1,7 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const {Persona} = require('./models/Personitas');
-const PORT = 3000; 
+// const cors = require('cors');
+const PORT = process.env.PORT || 3000; 
 
 const app = express();
 
