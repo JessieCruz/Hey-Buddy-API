@@ -9,7 +9,7 @@ mongoose.connect(URL_MONGO, (err)=>{
 const Schema = mongoose.Schema;
 
 const personitasSchema = new Schema ({
-    foto: [String],
+    foto: String,
     nombre: String,
     correo: String,
     tipo:{
